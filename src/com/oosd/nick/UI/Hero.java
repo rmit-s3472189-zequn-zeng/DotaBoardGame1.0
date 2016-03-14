@@ -9,7 +9,7 @@ import java.net.URL;
 import com.oosd.nick.Parameters;
 import com.oosd.nick.utils.GraphicUtils;
 
-public class Hero extends Component {
+public class Hero extends Spirit {
 
 	
 

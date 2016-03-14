@@ -28,7 +28,7 @@ public class MainFrame extends javax.swing.JFrame{
     {
        this.setTitle("Dota Borad Game 1.0");
        this.setBounds(x, y, Parameters.MAIN_WINDOW_WIDTH, Parameters.MAIN_WINDOW_HEIGHT); //set main windows size
-       gBoard = new GameBoard(this,x,y,Parameters.MAIN_WINDOW_WIDTH,Parameters.MAIN_WINDOW_HEIGHT);
+       gBoard = new GameBoard(x,y,Parameters.MAIN_WINDOW_WIDTH,Parameters.MAIN_WINDOW_HEIGHT);
        mp=new MainPanel();   //实例化一个panel
        this.add(mp);    //加载panel
        this.addMouseListener(gBoard);
