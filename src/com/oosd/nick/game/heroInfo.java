@@ -11,5 +11,4 @@ public class heroInfo {
 	public int bloods;
 	public Image image;
 	
-
 }

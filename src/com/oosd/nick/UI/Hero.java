@@ -18,7 +18,8 @@ public class Hero extends Spirit {
 	private int locY;
 	private URL url;
 	private boolean selected = false;
-	
+
+	private Menu m;
 
 	public Hero(URL url){
 		this.url = url;
@@ -39,6 +40,9 @@ public class Hero extends Spirit {
 		GraphicUtils.drawImage(g, url, locX, locY);
 		if(selected){
 			GraphicUtils.drawCellBorder(g,loc,Color.blue);
+			// when hero selected, the menu will show on screen.
+			m=new Menu(g,loc);
+			m.draw(g);
 		}
 	}
 
