@@ -7,6 +7,7 @@ import java.awt.Toolkit;
 import java.net.URL;
 
 import com.oosd.nick.Parameters;
+import com.oosd.nick.UI.menu.Menu;
 import com.oosd.nick.utils.GraphicUtils;
 
 public class Hero extends Spirit {

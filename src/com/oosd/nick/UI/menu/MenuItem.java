@@ -1,12 +1,15 @@
-package com.oosd.nick.UI;
+package com.oosd.nick.UI.menu;
 
 import java.awt.Color;
 import java.awt.Graphics;
 
+import com.oosd.nick.UI.Point;
+
 public class MenuItem extends Menu{
 
 	
-	private String item []={" ","Moving","Attack"};
+	private String item []={" ","Moving","Attack","Skills"};
+	private String skill[]={};
 	public int len=item.length;
 	public MenuItem(Graphics g, Point loc) {
 		super(g, loc);

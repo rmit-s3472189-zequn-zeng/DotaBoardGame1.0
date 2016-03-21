@@ -1,8 +1,9 @@
-package com.oosd.nick.UI;
+package com.oosd.nick.UI.menu;
 
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.event.MouseListener;
 
 import com.oosd.nick.UI.Component;
 import com.oosd.nick.UI.Point;
@@ -28,6 +29,7 @@ public class Menu extends Component{
 
 	@Override
 	public boolean onMouseClicked(Point p) {
+		
 		return false;
 	}
 }
